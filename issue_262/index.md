@@ -1,4 +1,4 @@
-# Main Page
+# 262: Broken baseUrl links for inner websites
 
 Version: v1.8.0.
 
@@ -9,4 +9,4 @@ Version: v1.8.0.
 <include src="inner_site/index.md" />
 
 ## Expected correct rendering
-Sometimes, I dream about cheese: /main_website/inner_site.
+This is cheese's baseUrl: /main_website/inner_site.
