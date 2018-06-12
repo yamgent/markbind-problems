@@ -1,0 +1,26 @@
+{
+  "baseUrl": "/innerSite",
+  "titlePrefix": "",
+  "ignore": [
+    "_markbind/logs/*",
+    "_site/*",
+    "site.json",
+    "*.md"
+  ],
+  "pages": [
+    {
+      "src": "index.md",
+      "title": "Hello World"
+    },
+    {
+      "src": "cheese.md",
+      "title": "Cheese"
+    },
+    {
+      "glob": "**/index.md"
+    }
+  ],
+  "deploy": {
+    "message": "Site Update."
+  }
+}

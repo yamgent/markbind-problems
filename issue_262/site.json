@@ -1,0 +1,22 @@
+{
+  "baseUrl": "/main_website",
+  "titlePrefix": "",
+  "ignore": [
+    "_markbind/logs/*",
+    "_site/*",
+    "site.json",
+    "*.md"
+  ],
+  "pages": [
+    {
+      "src": "index.md",
+      "title": "Hello World"
+    },
+    {
+      "glob": "**/index.md"
+    }
+  ],
+  "deploy": {
+    "message": "Site Update."
+  }
+}
