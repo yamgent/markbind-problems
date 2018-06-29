@@ -1,0 +1,25 @@
+{
+  "baseUrl": "",
+  "titlePrefix": "",
+  "ignore": [
+    "_markbind/logs/*",
+    "_site/*",
+    "site.json",
+    "*.md"
+  ],
+  "pages": [
+    {
+      "src": "index.md",
+      "title": "Hello World"
+    },
+    {
+      "src": "nextPage.md"
+    },
+    {
+      "glob": "**/index.md"
+    }
+  ],
+  "deploy": {
+    "message": "Site Update."
+  }
+}
